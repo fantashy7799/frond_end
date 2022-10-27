@@ -1,0 +1,69 @@
+
+.modal-login {
+    margin: auto;
+    display: flex;
+    border: solid;
+    width: 30rem;
+    height: 30rem;
+    background-color: #ffffff;
+    box-shadow: 0 2rem 6rem rgba(0, 0, 0, 0.3);
+    border-radius: 0.5rem;
+    Position: relative;
+}
+
+.box-text {
+    display: flexbox;
+    background-color: #1a1aff;
+    flex: 1;   
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    color: white;
+    text-align: center;
+    max-width: 45%;
+}
+
+.text {
+    margin: auto;
+    position: relative;
+    float: left;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.input-container {
+    display: flexbox;
+    flex: 1;
+    align-items: center;
+}
+
+
+.box-login {
+    display: flexbox;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    margin-left: 1.5em;
+    font-size: small;
+}
+
+.error {
+    font-size: 0.7em;
+    color: red;
+}
+
+.box-login div {
+    margin-top: 1em;
+}
+
+.input-box {
+    width: 15em;
+    height: 2em;
+}
+
+.button-submit {
+    width: 15.5em;
+    height: 2.5em;
+    background-color: #1a1aff;
+    color: white;
+}
